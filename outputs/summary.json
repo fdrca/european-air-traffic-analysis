@@ -1,0 +1,378 @@
+{
+ "n_airports": 253,
+ "n_countries": 42,
+ "n_routes_directed": 13499,
+ "n_edges": 6801,
+ "voli_sett_tot": 127820,
+ "raw_rows": 18111,
+ "quota_tipo_rotte": {
+  "Low-cost": 0.6122,
+  "Tradizionale": 0.2291,
+  "Mista": 0.1587
+ },
+ "quota_rotte_con_lcc": 0.7709,
+ "quota_voli_con_lcc": 0.6733,
+ "top_hubs": [
+  {
+   "citta": "Amsterdam",
+   "iata": "AMS",
+   "paese": "Netherlands",
+   "destinazioni": 155,
+   "voli_sett": 7564,
+   "quota_lcc": 0.594
+  },
+  {
+   "citta": "Frankfurt",
+   "iata": "FRA",
+   "paese": "Germany",
+   "destinazioni": 153,
+   "voli_sett": 6866,
+   "quota_lcc": 0.092
+  },
+  {
+   "citta": "London",
+   "iata": "STN",
+   "paese": "United Kingdom",
+   "destinazioni": 153,
+   "voli_sett": 3239,
+   "quota_lcc": 0.98
+  },
+  {
+   "citta": "Barcelona",
+   "iata": "BCN",
+   "paese": "Spain",
+   "destinazioni": 151,
+   "voli_sett": 5991,
+   "quota_lcc": 0.954
+  },
+  {
+   "citta": "Munich",
+   "iata": "MUC",
+   "paese": "Germany",
+   "destinazioni": 149,
+   "voli_sett": 5245,
+   "quota_lcc": 0.221
+  },
+  {
+   "citta": "Rome",
+   "iata": "FCO",
+   "paese": "Italy",
+   "destinazioni": 145,
+   "voli_sett": 4612,
+   "quota_lcc": 0.8
+  },
+  {
+   "citta": "Vienna",
+   "iata": "VIE",
+   "paese": "Austria",
+   "destinazioni": 144,
+   "voli_sett": 3933,
+   "quota_lcc": 0.722
+  },
+  {
+   "citta": "Dublin",
+   "iata": "DUB",
+   "paese": "Ireland",
+   "destinazioni": 142,
+   "voli_sett": 4091,
+   "quota_lcc": 0.845
+  },
+  {
+   "citta": "Manchester",
+   "iata": "MAN",
+   "paese": "United Kingdom",
+   "destinazioni": 142,
+   "voli_sett": 3180,
+   "quota_lcc": 0.937
+  },
+  {
+   "citta": "Palma de Mallorca",
+   "iata": "PMI",
+   "paese": "Spain",
+   "destinazioni": 140,
+   "voli_sett": 3803,
+   "quota_lcc": 0.886
+  }
+ ],
+ "top_carriers": [
+  {
+   "nome": "Ryanair",
+   "rotte": 4406,
+   "lcc": true
+  },
+  {
+   "nome": "easyJet",
+   "rotte": 2175,
+   "lcc": true
+  },
+  {
+   "nome": "Wizz Air",
+   "rotte": 1439,
+   "lcc": true
+  },
+  {
+   "nome": "Jet2",
+   "rotte": 1077,
+   "lcc": true
+  },
+  {
+   "nome": "Eurowings",
+   "rotte": 792,
+   "lcc": true
+  },
+  {
+   "nome": "Norwegian",
+   "rotte": 678,
+   "lcc": true
+  },
+  {
+   "nome": "Volotea",
+   "rotte": 662,
+   "lcc": true
+  },
+  {
+   "nome": "Transavia",
+   "rotte": 545,
+   "lcc": true
+  },
+  {
+   "nome": "SAS",
+   "rotte": 488,
+   "lcc": false
+  },
+  {
+   "nome": "Vueling",
+   "rotte": 400,
+   "lcc": true
+  }
+ ],
+ "top5_carriers_share": 0.496,
+ "nuove_rotte": {
+  "≤2018": {
+   "Low-cost": 1480,
+   "Mista": 632,
+   "Tradizionale": 511
+  },
+  "2019": {
+   "Low-cost": 329,
+   "Mista": 108,
+   "Tradizionale": 134
+  },
+  "2020": {
+   "Low-cost": 323,
+   "Mista": 101,
+   "Tradizionale": 123
+  },
+  "2021": {
+   "Low-cost": 89,
+   "Mista": 16,
+   "Tradizionale": 24
+  },
+  "2022": {
+   "Low-cost": 362,
+   "Mista": 71,
+   "Tradizionale": 132
+  },
+  "2023": {
+   "Low-cost": 283,
+   "Mista": 43,
+   "Tradizionale": 104
+  },
+  "2024": {
+   "Low-cost": 311,
+   "Mista": 39,
+   "Tradizionale": 81
+  },
+  "2025*": {
+   "Low-cost": 173,
+   "Mista": 24,
+   "Tradizionale": 58
+  }
+ },
+ "quota_lcc_anno": {
+  "≤2018": 0.805,
+  "2019": 0.765,
+  "2020": 0.775,
+  "2021": 0.814,
+  "2022": 0.766,
+  "2023": 0.758,
+  "2024": 0.812,
+  "2025*": 0.773
+ },
+ "categoria_rete": {
+  "Regionale – Regionale": 0.55,
+  "Hub – Regionale": 0.407,
+  "Hub – Hub": 0.043
+ },
+ "categoria_anno": {
+  "≤2018": {
+   "Hub – Hub": 0.039,
+   "Hub – Regionale": 0.419,
+   "Regionale – Regionale": 0.542
+  },
+  "2019": {
+   "Hub – Hub": 0.075,
+   "Hub – Regionale": 0.415,
+   "Regionale – Regionale": 0.51
+  },
+  "2020": {
+   "Hub – Hub": 0.086,
+   "Hub – Regionale": 0.473,
+   "Regionale – Regionale": 0.441
+  },
+  "2021": {
+   "Hub – Hub": 0.047,
+   "Hub – Regionale": 0.512,
+   "Regionale – Regionale": 0.442
+  },
+  "2022": {
+   "Hub – Hub": 0.046,
+   "Hub – Regionale": 0.395,
+   "Regionale – Regionale": 0.559
+  },
+  "2023": {
+   "Hub – Hub": 0.021,
+   "Hub – Regionale": 0.33,
+   "Regionale – Regionale": 0.649
+  },
+  "2024": {
+   "Hub – Hub": 0.03,
+   "Hub – Regionale": 0.406,
+   "Regionale – Regionale": 0.564
+  },
+  "2025*": {
+   "Hub – Hub": 0.027,
+   "Hub – Regionale": 0.361,
+   "Regionale – Regionale": 0.612
+  }
+ },
+ "quota_domestici": {
+  "Norway": 0.562,
+  "Spain": 0.385,
+  "Turkiye": 0.344,
+  "Italy": 0.342,
+  "Greece": 0.314,
+  "France": 0.302,
+  "Portugal": 0.178,
+  "United Kingdom": 0.175,
+  "Germany": 0.166,
+  "Poland": 0.112,
+  "Denmark": 0.102,
+  "Switzerland": 0.035,
+  "Ireland": 0.011,
+  "Netherlands": 0.0
+ },
+ "prezzo_mediano": {
+  "Low-cost": 50.0,
+  "Mista": 60.0,
+  "Tradizionale": 130.0
+ },
+ "top_edges": [
+  {
+   "a": "LPA",
+   "b": "TFN",
+   "voli": 362,
+   "tipo": "Mista"
+  },
+  {
+   "a": "BCN",
+   "b": "PMI",
+   "voli": 301,
+   "tipo": "Mista"
+  },
+  {
+   "a": "BGO",
+   "b": "OSL",
+   "voli": 299,
+   "tipo": "Mista"
+  },
+  {
+   "a": "OSL",
+   "b": "TRD",
+   "voli": 292,
+   "tipo": "Mista"
+  },
+  {
+   "a": "ARN",
+   "b": "CPH",
+   "voli": 271,
+   "tipo": "Mista"
+  }
+ ],
+ "data_known_share": 0.855,
+ "data_estrazione": "2025-08-11",
+ "n_collegamenti_annunciati": 261,
+ "n_colonne": 33,
+ "clustering": {
+  "k": 5,
+  "silhouette": {
+   "2": 0.417,
+   "3": 0.416,
+   "4": 0.348,
+   "5": 0.374,
+   "6": 0.356,
+   "7": 0.342,
+   "8": 0.345
+  },
+  "profili": {
+   "Grandi scali a prevalenza low-cost": {
+    "aeroporti": 50,
+    "destinazioni": 114,
+    "voli_sett": 2661,
+    "quota_lcc": 0.86,
+    "esempi": "AMS, BCN, MAD, FCO, CPH, DUB"
+   },
+   "Hub tradizionali": {
+    "aeroporti": 11,
+    "destinazioni": 112,
+    "voli_sett": 3791,
+    "quota_lcc": 0.26,
+    "esempi": "FRA, IST, LHR, CDG, MUC, ZRH"
+   },
+   "Scali medi low-cost": {
+    "aeroporti": 71,
+    "destinazioni": 60,
+    "voli_sett": 797,
+    "quota_lcc": 0.82,
+    "esempi": "LIN, BLQ, BGO, TFN, VCE, CTA"
+   },
+   "Scali regionali low-cost": {
+    "aeroporti": 90,
+    "destinazioni": 22,
+    "voli_sett": 193,
+    "quota_lcc": 0.81,
+    "esempi": "LED, COV, SPC, CIA, TOS, TRF"
+   },
+   "Piccoli scali (poche low-cost)": {
+    "aeroporti": 31,
+    "destinazioni": 12,
+    "voli_sett": 225,
+    "quota_lcc": 0.23,
+    "esempi": "LCY, AER, SVO, TLL, BHD, ABZ"
+   }
+  },
+  "meanshift": {
+   "0.05": {
+    "cluster": 18,
+    "ari": 0.54
+   },
+   "0.1": {
+    "cluster": 5,
+    "ari": 0.62
+   },
+   "0.15": {
+    "cluster": 5,
+    "ari": 0.53
+   },
+   "0.2": {
+    "cluster": 2,
+    "ari": 0.23
+   },
+   "0.3": {
+    "cluster": 2,
+    "ari": 0.15
+   }
+  },
+  "stabilita_ari_medio": 0.71
+ }
+}
